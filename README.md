@@ -12,7 +12,7 @@
 
 ## Authors
 
-👤 **Chahine Mahdhi**
+👤 **mark otuya**
 
 - GitHub: [@githubhandle](https://github.com/markotuya0)
 - Twitter: [@twitterhandle](https://twitter.com/mark__anthonny)
