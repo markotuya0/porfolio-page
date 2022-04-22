@@ -78,7 +78,7 @@ li {
 }
 
 .project {
-  display: flex;
+  display: grid;
   padding: 16px;
   flex-direction: column;
   background-color: #fff;
