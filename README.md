@@ -14,8 +14,8 @@
 
 👤 **mark otuya**
 
-- GitHub: [@githubhandle](https://github.com/markotuya0)
-- Twitter: [@twitterhandle](https://twitter.com/mark__anthonny)
+- GitHub: [@Markotuya0](https://github.com/markotuya0)
+- Twitter: [@mark__anthonny](https://twitter.com/mark__anthonny)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mark-otuya-6a09a5232/)
 
 ## Show your support
