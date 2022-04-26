@@ -188,26 +188,28 @@ h6 {
 /* end of line */
 
 #contact-section {
+  background: #6070ff;
   width: 100%;
   padding-bottom: 7rem;
-  padding: 2rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-bottom-left-radius: 75px;
+  border-top-right-radius: 115px;
 }
 
 #contact-form {
   padding-bottom: 2rem;
 }
 
-#contact-section h1{
+#contact-section h1 {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: "Gill Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 #contact-section h3 {
