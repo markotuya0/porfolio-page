@@ -686,56 +686,6 @@ p {
     padding: 8.875rem;
     padding-bottom: 7.9rem;
   }
-}
 
-/* end of line */
-
-#contact-section {
-  background: #6070ff;
-  width: 100%;
-  padding-bottom: 7rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-bottom-left-radius: 75px;
-  border-top-right-radius: 115px;
-}
-
-#contact-form {
-  text-align: center;
-  padding-bottom: 2rem;
-}
-
-#contact-section h1 {
-  text-align: center;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-}
-
-#contact-section h3 {
-  font-style: normal;
-  font-size: 20px;
-  text-transform: none;
-  text-align: center;
-  color: white;
-  padding: 0 1rem;
-}
-
-fieldset {
-  display: flex;
-  flex-direction: column;
-  border: none;
-  padding: 2em;
-}
-
-#contact-section button {
-  width: 162px;
-  height: 48px;
-  padding: 12px;
-  color: #6070ff;
-  cursor: pointer;
-  margin: 18px 0;
+  /* end of new line */
 }
