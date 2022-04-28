@@ -616,7 +616,7 @@ p {
     font-size: 48px;
   }
 
-  #name  {
+  #name {
     animation-duration: 3s;
     animation-name: name-slide;
   }
@@ -632,6 +632,7 @@ p {
       width: 100%;
     }
   }
+
   .fz-16 {
     font-size: 20px;
   }
