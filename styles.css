@@ -611,11 +611,15 @@ p {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .fz-40 {
     font-size: 48px;
   }
 
+  #name  {
+    animation-duration: 3s;
+    animation-name: name-slide;
+  }
   .fz-16 {
     font-size: 20px;
   }
