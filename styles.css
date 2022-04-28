@@ -185,7 +185,7 @@ p {
 }
 
 .navbar {
-  padding: 1rem 1.5rem;
+  padding: 1.5rem 8rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -560,7 +560,7 @@ p {
   }
 
   .contact::before {
-    background-image: url("./images/desktop/contactformbackground\ shapes@2x.png");
+    background-image: url("./logos/contactformbackground\ shapes@2x.png");
     padding: 1rem;
     border-top-left-radius: 8rem;
   }
@@ -654,7 +654,7 @@ p {
   }
 
   .navbar {
-    padding: 1.5rem 9.68rem;
+    padding:1.5rem 8rem;;
   }
 
   .head {
