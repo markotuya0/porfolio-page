@@ -109,19 +109,25 @@ div h2 {
   color: #344563;
   text-transform: uppercase;
 }
-
-.prog-languages {
+ 
+/* .prog-languages {
   display: flex;
   justify-content: space-between;
   margin: 16px 100px 0 -40px;
   color: #6070ff;
   font-size: 12px;
+} */
+.prog-languages {
+  float: left;
+  display: flex;
 }
+
 
 .lang {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
+  margin-right: 0.7rem;
 }
 
 #about-me {
