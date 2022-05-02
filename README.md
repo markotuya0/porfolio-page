@@ -13,7 +13,9 @@
 ## Authors
 
 
-live link : markotuya0.github.io/porfolio-page/
+live link : https://markotuya0.github.io/porfolio-page/
+
+
 👤 **mark otuya**
 
 - GitHub: [@Markotuya0](https://github.com/markotuya0)
