@@ -205,7 +205,7 @@ p {
 .head::before {
   content: "";
   position: absolute;
-  background-color: #fff;
+  background-color: #FFFFFF;
   background-image: url("./logos/contactformbackground\ shapes@2x.png");
   background-size: cover;
   background-position: center;
