@@ -654,7 +654,7 @@ p {
   }
 
   .navbar {
-    padding:1.5rem 8rem;;
+    padding: 1.5rem 8rem;
   }
 
   .head {
@@ -723,7 +723,6 @@ p {
   color: white;
   padding: 0 1rem;
 }
-
 
 fieldset {
   display: flex;
