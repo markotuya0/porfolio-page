@@ -57,7 +57,7 @@ p {
 }
 
 .clr-p-400 {
-  color: #0015d6
+  color: #0015d6;
 }
 
 .clr-p-300 {
@@ -191,7 +191,7 @@ p {
 }
 
 .navbar__link {
-  color: #142CFF;
+  color: #142cff;
 }
 
 .navbar__menu {
@@ -205,7 +205,7 @@ p {
 .head::before {
   content: "";
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: #fff;
   background-image: url("./logos/contactformbackground\ shapes@2x.png");
   background-size: cover;
   background-position: center;
@@ -431,7 +431,7 @@ p {
 }
 
 .contact__dsc {
-  color: #4F4F4F;
+  color: #4f4f4f;
   text-align: center;
   margin: 0.8rem 0 2.8rem;
 }
@@ -460,7 +460,7 @@ p {
   width: 162px;
   height: 48px;
   padding: 12px;
-  color: #1223BA;
+  color: #1223ba;
   cursor: pointer;
   margin: 18px 0;
 }
@@ -654,9 +654,7 @@ p {
   }
 
   .navbar {
-
     padding:1.5rem 8rem;;
-
   }
 
   .head {
