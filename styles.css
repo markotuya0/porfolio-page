@@ -49,7 +49,7 @@ p {
 }
 
 .clr-n-500 {
-  color: #7a869a;
+  color: #404654;
 }
 
 .clr-p-500 {
@@ -57,7 +57,7 @@ p {
 }
 
 .clr-p-400 {
-  color: #6070ff;
+  color: #0015d6;
 }
 
 .clr-p-300 {
@@ -191,7 +191,7 @@ p {
 }
 
 .navbar__link {
-  color: #6070ff;
+  color: #142cff;
 }
 
 .navbar__menu {
@@ -426,12 +426,12 @@ p {
 }
 
 .contact__title {
-  color: #fff;
+  color: #454545;
   text-align: center;
 }
 
 .contact__dsc {
-  color: #ebebff;
+  color: #4f4f4f;
   text-align: center;
   margin: 0.8rem 0 2.8rem;
 }
@@ -460,7 +460,7 @@ p {
   width: 162px;
   height: 48px;
   padding: 12px;
-  color: #6070ff;
+  color: #1223ba;
   cursor: pointer;
   margin: 18px 0;
 }

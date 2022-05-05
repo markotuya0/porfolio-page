@@ -11,9 +11,12 @@
 - Linters
 
 ## Authors
-  
-  live link : https://markotuya0.github.io/porfolio-page/
-  
+
+
+Live Link :  https://markotuya0.github.io/porfolio-page/
+
+
+
 👤 **mark otuya**
 
 - GitHub: [@Markotuya0](https://github.com/markotuya0)
