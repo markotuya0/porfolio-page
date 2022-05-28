@@ -185,12 +185,13 @@ p {
 }
 
 .navbar {
-  padding: 1.5rem 8rem;
+  padding: 1.1rem 4rem;
   align-items: center;
   justify-content: space-between;
 }
 
 .navbar__link {
+  margin-right: 150px;
   color: #6070ff;
 }
 
@@ -654,7 +655,7 @@ p {
   }
 
   .navbar {
-    padding:1.5rem 8rem;;
+    padding: 1.5rem 8rem;
   }
 
   .head {
