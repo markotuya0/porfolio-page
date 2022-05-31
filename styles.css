@@ -405,7 +405,7 @@ p {
   background-color: #6070ff;
   background-image: url("./logos/contactformbackground\ shapes@2x.png");
   background-size: contain;
-  background-position: right;
+  background-position: left;
   background-origin: content-box;
   background-repeat: no-repeat;
   border-top-left-radius: 5rem;
@@ -463,6 +463,13 @@ p {
   color: #6070ff;
   cursor: pointer;
   margin: 18px 0;
+}
+
+.underline {
+  margin-top: 12px;
+  border: 2px solid #0d151e;
+  width: 150px;
+  height: 3px;
 }
 
 @media (min-width: 992px) {
@@ -654,7 +661,7 @@ p {
   }
 
   .navbar {
-    padding:1.5rem 8rem;;
+    padding: 1.5rem 8rem;
   }
 
   .head {
