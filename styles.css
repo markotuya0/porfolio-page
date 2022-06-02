@@ -150,6 +150,45 @@ p {
   display: grid;
 }
 
+/* ---ADDING SOME ANIMATION---- */
+.navbar__menu__li {
+  animation-duration: 1.5s;
+  animation-name: fromleft;
+}
+
+@keyframes fromleft {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.navbar__logo {
+  transition: 1s;
+}
+
+.navbar__logo:hover {
+  transition: 1s;
+  transform: rotate(30deg);
+}
+
+.navbar__menu__li a {
+  padding: 2px 5px;
+}
+
+.navbar__menu__li:hover {
+  border: 1px solid #091e42;
+  padding: 2px 5px;
+  transition: 0.9s;
+}
+
+/* ---------- */
+
 .btn {
   -webkit-animation-duration: 0.8s;
   animation-duration: 0.8s;
@@ -654,7 +693,7 @@ p {
   }
 
   .navbar {
-    padding:1.5rem 8rem;;
+    padding: 1.5rem 8rem;
   }
 
   .head {
