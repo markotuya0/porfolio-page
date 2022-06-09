@@ -185,7 +185,7 @@ p {
 }
 
 .navbar {
-  padding: 1.5rem 8rem;
+  padding: 1.1rem 1rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -467,7 +467,7 @@ p {
 
 @media (min-width: 992px) {
   .navbar {
-    padding: 1.5rem 8rem;
+    padding: 1.1rem 1rem;
   }
 
   .navbar__menu {
@@ -654,7 +654,7 @@ p {
   }
 
   .navbar {
-    padding: 1.5rem 8rem;
+    padding: 1.1rem 1rem;
   }
 
   .head {
