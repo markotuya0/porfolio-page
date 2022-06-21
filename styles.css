@@ -194,7 +194,6 @@ p {
 
 .nav-menu {
   display: flex;
-  
   gap: 60px;
   list-style: none;
 }
@@ -252,7 +251,7 @@ p {
     top: 70px;
     gap: 0;
     flex-direction: column;
-   float: left;
+    float: left;
     transition: 0.3s;
     width: 100%;
     right: 50%;
@@ -272,12 +271,12 @@ p {
     top: 0;
     left: 0;
     padding: 62px 32px 0 28px;
-
     font-size: 32px;
     font-weight: 600;
     list-style: none;
   }
-  .nav-link{
+
+  .nav-link {
     color: white;
   }
 }
