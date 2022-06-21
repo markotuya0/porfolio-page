@@ -196,7 +196,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 61px;
+  gap: 0;
   list-style: none;
 }
 
@@ -212,7 +212,7 @@ p {
 }
 
 .nav-link:hover {
-  color: dodgerblue;
+  color: #f1f1f1;
 }
 
 .hamburger{
@@ -227,7 +227,7 @@ p {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #142cff;
+  background-color: #262626;
 }
 
 @media(max-width:768px){
@@ -296,9 +296,8 @@ p {
 }
 
 .head {
-  background-repeat: no-repeat;
   flex-direction: column;
-  
+  background-image: url("./logos/header-shapes.png");
   align-items: flex-start;
 
   padding: 6rem 1.5rem;
