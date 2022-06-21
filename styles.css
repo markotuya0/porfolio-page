@@ -49,7 +49,7 @@ p {
 }
 
 .clr-n-500 {
-  color: #404654;
+  color: #7a869a;
 }
 
 .clr-p-500 {
@@ -57,7 +57,7 @@ p {
 }
 
 .clr-p-400 {
-  color: #0015d6;
+  color: #6070ff;
 }
 
 .clr-p-300 {
@@ -185,21 +185,98 @@ p {
 }
 
 .navbar {
-  padding: 1.1rem 3rem;
-  align-items: center;
+  min-height: 70px;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
 }
 
-.navbar__link {
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  list-style: none;
+}
+
+.nav-branding {
+  font-weight: 700;
+  text-decoration: none;
   color: #142cff;
 }
 
-.navbar__menu {
-  display: none;
+.nav-link {
+  text-decoration: none;
+  transition: 0.7s ease;
 }
 
-.navbar__hamb {
+.nav-link:hover {
+  color: #f1f1f1;
+}
+
+.hamburger {
+  display: none;
   cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #262626;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+    right: 50%;
+    margin-bottom: 50px;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    position: absolute;
+    background-color: rgb(96, 112, 255, 0.85);
+    backdrop-filter: blur(4px);
+    width: 100vw;
+    top: 0;
+    left: 0;
+    padding: 62px 32px 0 28px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    list-style: none;
+  }
 }
 
 .head::before {
@@ -223,7 +300,6 @@ p {
   flex-direction: column;
   background-image: url("./logos/header-shapes.png");
   align-items: flex-start;
-  position: relative;
   padding: 6rem 1.5rem;
   z-index: 10;
 }
@@ -405,7 +481,7 @@ p {
   background-color: #6070ff;
   background-image: url("./logos/contactformbackground\ shapes@2x.png");
   background-size: contain;
-  background-position: left;
+  background-position: right;
   background-origin: content-box;
   background-repeat: no-repeat;
   border-top-left-radius: 5rem;
@@ -426,12 +502,12 @@ p {
 }
 
 .contact__title {
-  color: #454545;
+  color: #fff;
   text-align: center;
 }
 
 .contact__dsc {
-  color: #4f4f4f;
+  color: #ebebff;
   text-align: center;
   margin: 0.8rem 0 2.8rem;
 }
@@ -460,21 +536,14 @@ p {
   width: 162px;
   height: 48px;
   padding: 12px;
-  color: #1223ba;
+  color: #6070ff;
   cursor: pointer;
   margin: 18px 0;
 }
 
-.underline {
-  margin-top: 12px;
-  border: 2px solid #0d151e;
-  width: 150px;
-  height: 3px;
-}
-
 @media (min-width: 992px) {
   .navbar {
-    padding: 1.1rem 3rem;
+    padding: 1.1rem 1rem;
   }
 
   .navbar__menu {
@@ -661,7 +730,7 @@ p {
   }
 
   .navbar {
-    padding: 1.1rem 3rem;
+    padding: 1.1rem 1rem;
   }
 
   .head {
