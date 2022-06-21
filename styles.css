@@ -296,8 +296,9 @@ p {
 }
 
 .head {
+  background-repeat: no-repeat;
   flex-direction: column;
-  background-image: url("./logos/header-shapes.png");
+  
   align-items: flex-start;
 
   padding: 6rem 1.5rem;
