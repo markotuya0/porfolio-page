@@ -194,9 +194,8 @@ p {
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0;
+  
+  gap: 60px;
   list-style: none;
 }
 
@@ -253,7 +252,7 @@ p {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    text-align: center;
+   float: left;
     transition: 0.3s;
     width: 100%;
     right: 50%;
@@ -265,17 +264,21 @@ p {
   }
 
   .nav-menu.active {
-    position: absolute;
+    position: fixed;
     background-color: rgb(96, 112, 255, 0.85);
     backdrop-filter: blur(4px);
-    width: 100vw;
+    width: 100vh;
+    height: 1000vh;
     top: 0;
     left: 0;
     padding: 62px 32px 0 28px;
-    color: #fff;
+
     font-size: 32px;
     font-weight: 600;
     list-style: none;
+  }
+  .nav-link{
+    color: white;
   }
 }
 
