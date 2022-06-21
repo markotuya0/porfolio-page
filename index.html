@@ -9,27 +9,24 @@
 
   
 <body>
-  <div class="hero">
-    <header class="header bg-white">
-      <nav class="navbar flex">
-        <div class="navbar__logo">
-          <a href="#" class="navbar__link link fz-18 fw-700 lh-20">Mark.O</a>
-        </div>
-        <div class="navbar__menu">
-          <ul class="navbar__menu__ul ul flex">
-            <li class="navbar__menu__li">
-              <a href="#" class="navbar__menu__link link fw-500 fz-15 lh-20 clr-n-600">Portfolio</a>
+  <nav class="navbar">
+    <a href="#" class="nav-branding">Mark.O</a>
+        <div class="nav-menu">
+            <li class="nav-item">
+              <a href="#works" class="nav-link">Portfolio</a>
             </li>
-            <li class="navbar__menu__li">
-              <a href="#" class="navbar__menu__link link fw-500 fz-15 lh-20 clr-n-600">About</a>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
             </li>
-            <li class="navbar__menu__li">
-              <a href="#" class="navbar__menu__link link fw-500 fz-15 lh-20 clr-n-600">Contact</a>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
-        <div class="navbar__hamb">
-          <img src="logos/Union.jpeg" alt="menu icon" />
+        <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
         </div>
       </nav>
     </header>
@@ -38,12 +35,10 @@
   
       <section class="head flex">
         <h1>Hi,Im <span id="name">Mark Otuya</span></h1>
-        <p id="bio">i’m a software developer & Web Designer! I can Build your Dream Web Page on Demand,
+        <p id="bio">’m a software developer & Web Designer! I can Build your Dream Web Page on Demand,
           Look Below for  some of my work and experience!
            Feel free to contact me, Lets work.</p>
-
-         <h2>Contact Me</h2>
-
+         <h3>Contact Me</h3>
         <div class="head__icons">
           <ul class="head__icons__ul ul flex">
             <li class="head__icons__li">
@@ -60,7 +55,7 @@
       </section>
   
 
-      <section class="works">
+      <section class="works" id="works">
         <ul class="works__cards ul grid">
           <li class="works__card flex bg-white">
             <div class="works__card__img">
@@ -244,7 +239,7 @@
         </ul>
       </section>
   
-      <section class="about bg-white flex">
+      <section class="about bg-white flex" id="about">
         <div class="about__myself">
           <h2 class="about__title fw-700 fz-40 lh-52 clr-n-800">
             About Myself
@@ -260,13 +255,13 @@
           <div class="about__icons">
             <ul class="about__icons__ul ul flex">
               <li class="about__icons__li">
-                <a href="#" class="about__icons__link link"><img src="logos/Vector-2.jpg" alt="github icon" /></a>
+                <li><a href="https://github.com/markotuya0"><img src="logos/Vector-2.jpg" alt="github icon" /></a>
               </li>
               <li class="about__icons__li">
-                <a href="#" class="about__icons__link link"><img src="logos/Linkedin.jpg" alt="linkedin icon" /></a>
+                <li><a href="https://www.linkedin.com/in/mark-otuya-6a09a5232/"><img src="logos/Linkedin.jpg" alt="linkedin icon" /></a>
               </li>
               <li class="about__icons__li">
-                <a href="#" class="about__icons__link link"><img src="logos/Vector.png" alt="twitter icon" /></a>
+                <a href="https://twitter.com/mark__anthonny"><img src="logos/Vector.png" alt="twitter icon" /></a>
               </li>
             </ul>
           </div>
@@ -324,10 +319,7 @@
         </ul>
       </section>
 
-
-      <!-- contact section start -->
-
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="contact__container">
           <h2 class="contact__title fw-700 fz-40 lh-52">Contact me</h2>
           <p class="contact__dsc fw-500 fz-20 lh-28">
@@ -335,10 +327,7 @@
             feature that you need built or a project that needs coding. I'd love
             to help with it
           </p>
-          <form
-          action="https://formspree.io/f/xknyyeez"
-          method="POST"
-        >
+          <form action="https://formspree.io/forms/mqkngpww" method="post">
             <ul class="ul">
               <li>
                 <input type="text" class="contact__name fw-500 fz-17 lh-20" name="contact_name"
@@ -357,11 +346,11 @@
               </li>
             </ul>
 
-  
+            
           </form>
         </div>
       </section>
-
+      <script src="script.js"></script>
   </body>
   
   </html>
