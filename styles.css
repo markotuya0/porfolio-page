@@ -226,7 +226,7 @@ p {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #262626;
+  background-color: #142cff;
 }
 
 @media (max-width: 768px) {
@@ -301,7 +301,6 @@ p {
 
 .head {
   flex-direction: column;
-  background-image: url("./logos/header-shapes.png");
   align-items: flex-start;
   padding: 6rem 1.5rem;
   z-index: 10;
