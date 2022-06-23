@@ -783,6 +783,11 @@ p {
   padding-bottom: 2rem;
 }
 
+#error-message {
+  font-size: 17px;
+  padding: 10px;
+}
+
 #contact-section h1 {
   text-align: center;
   font-style: normal;
