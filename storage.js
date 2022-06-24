@@ -16,9 +16,4 @@ function retrieve() {
     message.value = data.message;
   }
 
-  name.addEventListener('input', () => storage(name.value, email.value, message.value));
-  email.addEventListener('input', () => storage(name.value, email.value, message.value));
-  message.addEventListener('input', () => storage(name.value, email.value, message.value));
-}
-
-retrieve();
+  
