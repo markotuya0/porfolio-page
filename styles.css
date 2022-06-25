@@ -423,7 +423,7 @@ textarea {
 
 @media (min-width: 768px) {
   #intro {
-    background: url("./logos/Header\ bg@2x.png") no-repeat;
+    background: url("./logos/header-shapes-mobile.svg") no-repeat;
     background-color: white;
     background-position: 100%;
   }
@@ -503,7 +503,7 @@ textarea {
   }
 
   #form-section {
-    background: url('./images/web-contact-form-background-shapes@2x.svg') no-repeat;
+    background: url('./logos/web-contact-form-background-shapes@2x.svg') no-repeat;
     background-position: 100%;
     border-top-left-radius: 75px;
     background-color: #6070ff;
