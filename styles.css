@@ -67,7 +67,7 @@ main {
 }
 
 #intro {
-  background: url("./images/header-shapes-mobile.svg") no-repeat;
+  background: url("./logos/header-shapes.png") no-repeat;
   height: 600px;
   background-color: white;
   border-bottom-left-radius: 75px;
@@ -288,7 +288,7 @@ h6 {
 }
 
 #form-section {
-  background: url('./images/contact-form-shapes-mobile.svg') no-repeat;
+  background: url('./logos/contactformbackground\ shapes@2x.png') no-repeat;
   background-position: 100%;
   border-top-left-radius: 75px;
   background-color: #6070ff;
@@ -423,7 +423,7 @@ textarea {
 
 @media (min-width: 768px) {
   #intro {
-    background: url("./images/Header-bg.svg ") no-repeat;
+    background: url("./logos/Header\ bg@2x.png") no-repeat;
     background-color: white;
     background-position: 100%;
   }
